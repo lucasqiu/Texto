@@ -7,12 +7,18 @@
 //
 
 #import "DetailViewController.h"
+#import "ComposeViewController.h"
 
 @interface DetailViewController ()
 - (void)configureView;
 @end
 
 @implementation DetailViewController
+
+- (IBAction)unwindToDetail:(UIStoryboardSegue *)segue
+{
+}
+
 
 #pragma mark - Managing the detail item
 
@@ -34,6 +40,7 @@
         self.detailDescriptionLabel.text = [self.detailItem description];
     }
 }
+
 
 - (void)viewDidLoad
 {

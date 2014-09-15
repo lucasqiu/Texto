@@ -22,6 +22,7 @@
 		72D36A3A19C75586007626E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D36A1919C75586007626E4 /* UIKit.framework */; };
 		72D36A4219C75586007626E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72D36A4019C75586007626E4 /* InfoPlist.strings */; };
 		72D36A4419C75586007626E4 /* TextoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D36A4319C75586007626E4 /* TextoTests.m */; };
+		72D36A4F19C756F9007626E4 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D36A4E19C756F9007626E4 /* ComposeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		72D36A3F19C75586007626E4 /* TextoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextoTests-Info.plist"; sourceTree = "<group>"; };
 		72D36A4119C75586007626E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		72D36A4319C75586007626E4 /* TextoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextoTests.m; sourceTree = "<group>"; };
+		72D36A4D19C756F9007626E4 /* ComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		72D36A4E19C756F9007626E4 /* ComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				72D36A2419C75586007626E4 /* AppDelegate.h */,
 				72D36A2519C75586007626E4 /* AppDelegate.m */,
 				72D36A2719C75586007626E4 /* Main.storyboard */,
+				72D36A4D19C756F9007626E4 /* ComposeViewController.h */,
+				72D36A4E19C756F9007626E4 /* ComposeViewController.m */,
 				72D36A2A19C75586007626E4 /* MasterViewController.h */,
 				72D36A2B19C75586007626E4 /* MasterViewController.m */,
 				72D36A2D19C75586007626E4 /* DetailViewController.h */,
@@ -257,6 +262,7 @@
 				72D36A2619C75586007626E4 /* AppDelegate.m in Sources */,
 				72D36A2C19C75586007626E4 /* MasterViewController.m in Sources */,
 				72D36A2219C75586007626E4 /* main.m in Sources */,
+				72D36A4F19C756F9007626E4 /* ComposeViewController.m in Sources */,
 				72D36A2F19C75586007626E4 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
